@@ -2,7 +2,7 @@
 
 
 ''' Recursive Solution O(3^N)'''
-def countWays(n,map_n):
+def countWays(n):
     if n<0:
         return 0
     elif n==0:
